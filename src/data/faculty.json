@@ -1,0 +1,58 @@
+{
+  "summary": {
+    "male": 16,
+    "female": 10,
+    "total": 7
+  },
+  "list": [
+    {
+      "id": 1,
+      "name": "মোঃ শফিকুল ইসলাম",
+      "designation": "প্রধান শিক্ষক",
+      "subject": "গণিত",
+      "gender": "male"
+    },
+    {
+      "id": 2,
+      "name": "বেগম রোকেয়া",
+      "designation": "সহকারী প্রধান শিক্ষক",
+      "subject": "বাংলা",
+      "gender": "female"
+    },
+    {
+      "id": 3,
+      "name": "আব্দুর রহমান",
+      "designation": "সিনিয়র শিক্ষক",
+      "subject": "ইংরেজি",
+      "gender": "male"
+    },
+    {
+      "id": 4,
+      "name": "ফাতেমা তুজ জোহরা",
+      "designation": "সহকারী শিক্ষক",
+      "subject": "বিজ্ঞান",
+      "gender": "female"
+    },
+    {
+      "id": 5,
+      "name": "গোলাম মোস্তফা",
+      "designation": "সহকারী শিক্ষক",
+      "subject": "ইতিহাস ও সমাজবিজ্ঞান",
+      "gender": "male"
+    },
+    {
+      "id": 6,
+      "name": "আয়েশা সিদ্দিকা",
+      "designation": "সহকারী শিক্ষক",
+      "subject": "ধর্ম ও নৈতিক শিক্ষা",
+      "gender": "female"
+    },
+    {
+      "id": 7,
+      "name": "মাহমুদ",
+      "designation": "সহকারী শিক্ষক",
+      "subject": "ICT",
+      "gender": "male"
+    }
+  ]
+}

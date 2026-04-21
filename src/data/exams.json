@@ -1,0 +1,35 @@
+{
+  "logic": "ফাইনাল ফলাফল = (১ম সাময়িক + ২য় সাময়িক + ৩য় সাময়িক) / ৩",
+  "terms": [
+    {
+      "id": 1,
+      "name": "১ম সাময়িক",
+      "marks": {
+        "classTest": 10,
+        "tutorial": 20,
+        "terminal": 70,
+        "total": 100
+      }
+    },
+    {
+      "id": 2,
+      "name": "২য় সাময়িক",
+      "marks": {
+        "classTest": 10,
+        "tutorial": 20,
+        "terminal": 70,
+        "total": 100
+      }
+    },
+    {
+      "id": 3,
+      "name": "৩য় সাময়িক / বার্ষিক",
+      "marks": {
+        "classTest": 10,
+        "tutorial": 20,
+        "terminal": 70,
+        "total": 100
+      }
+    }
+  ]
+}

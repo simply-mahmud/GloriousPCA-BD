@@ -1,0 +1,156 @@
+.footer {
+  background-color: var(--primary-blue);
+  color: var(--bg-cream);
+  padding-top: 60px;
+  margin-top: 80px;
+}
+
+.footerGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  padding-bottom: 40px;
+}
+
+@media (min-width: 640px) {
+  .footerGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .footerGrid {
+    grid-template-columns: 2fr 1fr 1fr 1.5fr;
+  }
+}
+
+.brandInfo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.footerLogo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: var(--bg-white);
+  padding: 2px;
+  object-fit: contain;
+}
+
+.brandSection h2 {
+  color: var(--bg-white);
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.tagline {
+  color: #D1D5DB;
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.socials {
+  display: flex;
+  gap: 12px;
+}
+
+.socialIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  color: var(--bg-white);
+  transition: all var(--transition-fast);
+}
+
+.fbHover:hover {
+  background-color: #1877F2;
+  transform: translateY(-2px);
+}
+
+.ytHover:hover {
+  background-color: #FF0000;
+  transform: translateY(-2px);
+}
+
+.waHover:hover {
+  background-color: #25D366;
+  transform: translateY(-2px);
+}
+
+.linkSection h3, .contactSection h3 {
+  color: var(--sky-blue);
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  position: relative;
+  padding-bottom: 8px;
+}
+
+.linkSection h3::after, .contactSection h3::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40px;
+  height: 2px;
+  background-color: var(--accent-gold);
+}
+
+.linkSection ul, .contactSection ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.linkSection a {
+  color: #D1D5DB;
+  transition: color var(--transition-fast);
+  display: inline-block;
+}
+
+.linkSection a:hover {
+  color: var(--accent-gold);
+  transform: translateX(4px);
+}
+
+.contactSection li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  color: #D1D5DB;
+  font-size: 0.95rem;
+}
+
+.icon {
+  color: var(--accent-gold);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.contactSection a {
+  color: inherit;
+  transition: color var(--transition-fast);
+}
+
+.contactSection a:hover {
+  color: var(--accent-gold);
+}
+
+.copyright {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 20px 0;
+  text-align: center;
+}
+
+.copyright p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+  margin: 0;
+}

@@ -1,0 +1,33 @@
+{
+  "summary": {
+    "male": 6,
+    "female": 2,
+    "total": 8
+  },
+  "list": [
+    {
+      "id": 1,
+      "name": "মোঃ আবুল কাসেম",
+      "designation": "অফিস সহকারী",
+      "gender": "male"
+    },
+    {
+      "id": 2,
+      "name": "রহিমা খাতুন",
+      "designation": "আয়া",
+      "gender": "female"
+    },
+    {
+      "id": 3,
+      "name": "জব্বার হোসেন",
+      "designation": "নৈশপ্রহরী",
+      "gender": "male"
+    },
+    {
+      "id": 4,
+      "name": "সালাম শেখ",
+      "designation": "পরিচ্ছন্নতাকর্মী",
+      "gender": "male"
+    }
+  ]
+}

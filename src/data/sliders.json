@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1633613286991-611fe299c4be?q=80&w=1470&auto=format&fit=crop",
+    "caption": "শৃঙ্খলা, মানসম্মত শিক্ষা ও নৈতিকতার সমন্বয়ে আগামীর শিক্ষার্থীদের গড়ে তুলি",
+    "cta": "বিস্তারিত জানুন"
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1470&auto=format&fit=crop",
+    "caption": "প্রি-ক্যাডেট ভিত্তিক যত্নশীল শিক্ষা, অভিজ্ঞ শিক্ষকবৃন্দ এবং সুন্দর শিক্ষাবান্ধব পরিবেশ",
+    "cta": "ভর্তি তথ্য দেখুন"
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?q=80&w=1470&auto=format&fit=crop",
+    "caption": "সুন্দর ভবিষ্যৎ গঠনে অবিচল অঙ্গীকার",
+    "cta": "আমাদের সম্পর্কে"
+  }
+]

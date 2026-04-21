@@ -1,0 +1,36 @@
+.titleWrapper {
+  margin-bottom: 40px;
+}
+
+.centered {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 2.2rem;
+  color: var(--primary-blue);
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: #6B7280;
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin-bottom: 15px;
+}
+
+.divider {
+  height: 4px;
+  width: 60px;
+  background: var(--accent-gold);
+  border-radius: 2px;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.8rem;
+  }
+}

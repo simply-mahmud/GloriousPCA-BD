@@ -1,0 +1,26 @@
+:root {
+  --primary-blue: #2E3192;
+  --sky-blue: #5BC5F2;
+  --accent-red: #C62828;
+  --accent-gold: #B88A3B;
+  --bg-cream: #F5EFD9;
+  --text-dark: #1F2937;
+  --text-light: #F9FAFB;
+  --bg-white: #FFFFFF;
+  
+  --font-heading: 'Noto Sans Bengali', sans-serif;
+  --font-body: 'Noto Sans Bengali', sans-serif;
+  
+  --shadow-sm: 0 2px 8px rgba(46, 49, 146, 0.05);
+  --shadow-soft: 0 4px 20px rgba(46, 49, 146, 0.08);
+  --shadow-hover: 0 10px 30px rgba(46, 49, 146, 0.15);
+  
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+  
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+}
